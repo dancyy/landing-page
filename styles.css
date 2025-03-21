@@ -1,0 +1,142 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+a {
+  text-decoration: none;
+  color:#F9FAF8;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+button {
+  background-color: #3882F6;
+  border: none;
+  color:#F9FAF8;
+  border-radius: 4px;
+  padding: 15px 32px;
+}
+
+.sec-1 {
+  max-width: 400px;
+  padding: 30px;
+  text-align: left;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  font-size: 18px;
+  color: #1F2937;
+}
+
+.random-info {
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.blue-box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+}
+
+.sec-1 p {
+  color: #E5E7EB;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color:#1F2937;
+  font-style: italic;
+  font-weight: 100;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.quote-content {
+  max-width: 900px;
+}
+
+figcaption {
+  text-align: right;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color:#E5E7EB;
+  width: 1000px;
+  border-radius: 5px;
+  padding: 16px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.action-button {
+  border: 3px solid #E5E7EB;
+}
+
+footer {
+  text-align: center;
+  background-color: #1F2937;
+  padding: 25px;
+  color:#E5E7EB;
+}
